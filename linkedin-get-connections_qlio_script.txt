@@ -1,0 +1,6 @@
+create table network
+on select get from 
+'http://api.linkedin.com/v1/people/~/connections'
+using patch 'support/patches/oauth.js'
+
+resultset 'connections.person' select * from network where consumerkey="<#API KEY#>nd consumersecret="<#SECRET KEY#>  and method="GET" and URI="http://api.linkedin.com/v1/people/~/connections"
