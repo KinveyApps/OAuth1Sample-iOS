@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2779D09B17A17F7300FA3FE8 /* libUAirship-1.4.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2779D09A17A17F7300FA3FE8 /* libUAirship-1.4.0.a */; };
+		2779D09D17A17F7C00FA3FE8 /* KinveyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2779D09C17A17F7C00FA3FE8 /* KinveyKit.framework */; };
 		27D155D8167648B800171230 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D155D7167648B800171230 /* UIKit.framework */; };
 		27D155DA167648B800171230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D155D9167648B800171230 /* Foundation.framework */; };
 		27D155DC167648B800171230 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D155DB167648B800171230 /* CoreGraphics.framework */; };
@@ -33,11 +35,11 @@
 		27D1562016764E6D00171230 /* GTMOAuthAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D155FD167648E700171230 /* GTMOAuthAuthentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		27D1562116764E7000171230 /* GTMOAuthSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D155FF167648E700171230 /* GTMOAuthSignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		27D1562216764E7300171230 /* GTMOAuthViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D15601167648F200171230 /* GTMOAuthViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		27D1567616778C5300171230 /* KinveyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D1567516778C5300171230 /* KinveyKit.framework */; };
-		27D1567816778C5F00171230 /* libUAirshipPush-1.3.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D1567716778C5F00171230 /* libUAirshipPush-1.3.3.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2779D09A17A17F7300FA3FE8 /* libUAirship-1.4.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libUAirship-1.4.0.a"; path = "Airship/libUAirship-1.4.0.a"; sourceTree = "<group>"; };
+		2779D09C17A17F7C00FA3FE8 /* KinveyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KinveyKit.framework; path = Kinvey/KinveyKit.framework; sourceTree = "<group>"; };
 		27D155D3167648B800171230 /* OAuth1Sample-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OAuth1Sample-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D155D7167648B800171230 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		27D155D9167648B800171230 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -74,8 +76,6 @@
 		27D1561116764A0800171230 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		27D1561216764A0800171230 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		27D1561316764A0800171230 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
-		27D1567516778C5300171230 /* KinveyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KinveyKit.framework; sourceTree = "<group>"; };
-		27D1567716778C5F00171230 /* libUAirshipPush-1.3.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libUAirshipPush-1.3.3.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +96,9 @@
 				27D1561E16764A0800171230 /* Twitter.framework in Frameworks */,
 				27D155D8167648B800171230 /* UIKit.framework in Frameworks */,
 				27D155DA167648B800171230 /* Foundation.framework in Frameworks */,
+				2779D09D17A17F7C00FA3FE8 /* KinveyKit.framework in Frameworks */,
+				2779D09B17A17F7300FA3FE8 /* libUAirship-1.4.0.a in Frameworks */,
 				27D155DC167648B800171230 /* CoreGraphics.framework in Frameworks */,
-				27D1567616778C5300171230 /* KinveyKit.framework in Frameworks */,
-				27D1567816778C5F00171230 /* libUAirshipPush-1.3.3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,8 +125,8 @@
 		27D155D6167648B800171230 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				27D1567716778C5F00171230 /* libUAirshipPush-1.3.3.a */,
-				27D1567516778C5300171230 /* KinveyKit.framework */,
+				2779D09C17A17F7C00FA3FE8 /* KinveyKit.framework */,
+				2779D09A17A17F7300FA3FE8 /* libUAirship-1.4.0.a */,
 				27D1560916764A0800171230 /* Accounts.framework */,
 				27D1560A16764A0800171230 /* CFNetwork.framework */,
 				27D1560B16764A0800171230 /* CoreLocation.framework */,
@@ -344,14 +344,16 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(SRCROOT)/Kinvey",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OAuth1Sample-iOS/OAuth1Sample-iOS-Prefix.pch";
 				INFOPLIST_FILE = "OAuth1Sample-iOS/OAuth1Sample-iOS-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(SRCROOT)/Airship",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -363,14 +365,16 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(SRCROOT)/Kinvey",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OAuth1Sample-iOS/OAuth1Sample-iOS-Prefix.pch";
 				INFOPLIST_FILE = "OAuth1Sample-iOS/OAuth1Sample-iOS-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(SRCROOT)/Airship",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -396,6 +400,7 @@
 				27D155F9167648B800171230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

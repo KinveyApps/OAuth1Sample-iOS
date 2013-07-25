@@ -7,7 +7,7 @@ Sample App Showing Off Kinvey Data Integration, using LinkedIn with OAuth 1a. Th
 ![Screen Shot 2](https://github.com/KinveyApps/OAuth1Sample-iOS/raw/master/images/OAuth1Example_screen2.png)
 
 ### KinveyKit
-This sample application requires a minimum of iOS 5.0 and KinveyKit 1.12.0. To use the sample app, go to [Kinvey](http://console.kinvey.com) and create a new App. You'll need the App id and App secret to set in `AppDelegate.m` in order to run this sample. 
+This sample application requires a minimum of iOS 5.0 and KinveyKit 1.17.2. To use the sample app, go to [Kinvey](http://console.kinvey.com) and create a new App. You'll need the App id and App secret to set in `AppDelegate.m` in order to run this sample. 
 
 ### OAuth2
 This project uses Google's [gtm-oauth1](http://code.google.com/p/gtm-oauth1/) library to obtain an access token from LinkedIn. It's your responsibility to log in to [LinkedIn's API](https://www.linkedin.com/secure/developer), create an application with them and obtain the client id and secret. 
@@ -25,3 +25,19 @@ This sample corresponds to [this tutorial](http://devcenter.kinvey.com/ios/tutor
 Website: www.kinvey.com
 
 Support: support@kinvey.com
+
+## License
+
+Copyright (c) 2013 Kinvey, Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
